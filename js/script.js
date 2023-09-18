@@ -5,11 +5,11 @@ charts.forEach(function (chart) {
   var myChart = new Chart(ctx, {
     type: "bar",
     data: {
-      labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+      labels: ["Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday"],
       datasets: [
         {
-          label: "# of Votes",
-          data: [12, 19, 3, 5, 2, 3],
+          label: 'Refresh',
+          data: [22, 19, 3, 5, 2, 3],
           backgroundColor: [
             "rgba(255, 99, 132, 0.2)",
             "rgba(54, 162, 235, 0.2)",
